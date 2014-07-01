@@ -14,7 +14,7 @@ Cómo se usa
 Ejecuta en un terminal 
 
 ```
-bundle install && bundle exec ruby script.rb
+bundle install && bundle exec ruby generate.rb
 ```
 
 Tarda un poco, porque http://www.boe.es/robots.txt tiene más de 8000 entradas.
