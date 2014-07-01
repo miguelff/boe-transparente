@@ -3,6 +3,8 @@ BOE Transparente
 
 Generador de enlaces a documentos públicos pertenecientes al Boletín Oficial del Estado (BOE) y no indexados por los robots de búsqueda
 
+![screenshot](https://cloud.githubusercontent.com/assets/210307/3449972/9e4d2e34-0170-11e4-89af-a0e652123cce.jpg)
+
 Motivación
 ----------
 
