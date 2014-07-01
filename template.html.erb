@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>BOE Transparente</title>
+    <meta charset="utf-8">
+    <title>BOE Transparente</title>
+    <meta name="Description" content="Enlaces a documentos públicos pertenecientes al Boletín Oficial del estado (BOE) y no indexados por los robots de búsqueda">
+    <meta name="Keywords" content="BOE transparencia real decreto ley derogacion indultos leaks Boletin Ofical del Estado">
+    <meta http-equiv="last-modified" content="#{Time.now.utc}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://simonwhitaker.github.io/github-fork-ribbon-css/gh-fork-ribbon.css">
+  </head>
+  <body>
+  <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/miguelff/boe-transparente">Clóname en GitHub</a>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <h1>
+        Boe Transparente
+        <small>Enlaces a entradas en el BOE no indexables por robots de búsqueda</small>
+        </h1>
+      </div>
+      <div class="row">
+        <% sections.each do |section, links| %>
+          <% if links.any? %>
+          <section>
+            <h3> <%= section %> </h3>
+            <ul>
+              <% links.sort.each do |link| %>
+                <li><a href="<%= link.href %>" class="<%= link.classes.join(' ') %>"><%= link.text %></a></li>
+              <% end %>
+            </ul>
+          </section>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </body>
+</html>
