@@ -8,7 +8,8 @@ Generador de enlaces a documentos públicos pertenecientes al Boletín Oficial d
 Motivación
 ----------
 
-http://www.meneame.net/story/robots-txt-boe-google-no-indexe-condenas-indultos-corruptos
+* http://www.meneame.net/story/robots-txt-boe-google-no-indexe-condenas-indultos-corruptos
+* http://www.genbeta.com/activismo-online/el-director-del-boe-acata-pero-no-comparte-ocultar-sus-contenidos-a-los-buscadores
 
 Cómo se usa
 -----------
